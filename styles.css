@@ -193,7 +193,17 @@ main {
   /* margin-bottom: 2rem; */
 }
 .text--container {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
   width: 50%;
+  justify-content: space-between;
+}
+.text--container p {
+  margin-top: 1rem;
+}
+.text--container a {
+  margin-bottom: 1rem;
 }
 .c4 {
   margin-bottom: 2.8rem;

@@ -284,6 +284,25 @@ main {
 .text--container p {
   margin-left: 1.2rem;
 }
+.text--container a {
+  background: var(--soft-orange);
+  display: inline-block;
+  margin-left: 1.2rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  border-radius: 1.6rem;
+  color: #163e59;
+  font-weight: bold;
+  /* width: 10rem;
+  height: 3rem; */
+}
+.text--container .link-blue {
+  background-color: #163e59;
+  color: white;
+  /* width: 1000px; */
+}
 .c4 {
   margin-bottom: 2.8rem;
 }
