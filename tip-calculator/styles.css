@@ -1,0 +1,22 @@
+main {
+  max-width: 900px;
+  margin: auto auto;
+  padding-bottom: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container--form {
+  width: 48%;
+}
+.container--2 {
+  width: 48%;
+}
+.container--input input {
+  width: 95%;
+}
