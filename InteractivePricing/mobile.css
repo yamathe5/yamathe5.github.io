@@ -27,7 +27,7 @@ main {
 .principal--text--container {
   padding: 1.5rem 0;
 
-  background-image: url("/images/pattern-circles.svg");
+  background-image: url("/InteractivePricing/images/pattern-circles.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -85,7 +85,7 @@ main {
   height: 35px;
   /* padding: ; */
   border: 0;
-  background: url("/images/icon-slider.svg");
+  background: url("/InteractivePricing/images/icon-slider.svg");
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: auto;
@@ -100,7 +100,7 @@ main {
   width: 23px;
   height: 25px;
   border: 0;
-  background: url("/images/icon-slider.svg");
+  background: url("/InteractivePricing/images/icon-slider.svg");
   cursor: pointer;
   background-position: center;
   background-color: hsl(174, 86%, 45%);
