@@ -81,6 +81,7 @@ main {
   text-align: center;
   border-radius: 0.6rem;
   line-height: auto;
+  cursor: pointer;
 }
 .custom {
   width: 45%;
@@ -135,6 +136,7 @@ main {
 }
 .reset {
   width: 90%;
+  cursor: pointer;
   background-color: hsl(172, 67%, 45%);
   margin-bottom: 2rem;
   margin-top: 2rem;

@@ -4,37 +4,38 @@ var b = document.querySelector('.numPeople')
 b.addEventListener('keyup', intoInt)
 var c = document.querySelector('.custom')
 c.addEventListener('keyup', intoInt)
-
+var reset = document.querySelector('.reset')
+reset.addEventListener('click', resetValues)
 
 
 var five = document.querySelector('.five')
-five.addEventListener('click', cambiazo5)
+five.addEventListener('click', change5)
 var ten = document.querySelector('.teen')
-ten.addEventListener('click', cambiazo10)
+ten.addEventListener('click', change10)
 var fifteen = document.querySelector('.fifteen')
-fifteen.addEventListener('click', cambiazo15)
+fifteen.addEventListener('click', change15)
 var twentyFive = document.querySelector('.twentyFive')
-twentyFive.addEventListener('click', cambiazo25)
+twentyFive.addEventListener('click', change25)
 var fifty = document.querySelector('.fifty')
-fifty.addEventListener('click', cambiazo50)
+fifty.addEventListener('click', change50)
 
-function cambiazo5(){
+function change5(){
     c.value = number1*0.05;
     intoInt()
 }
-function cambiazo10(){
+function change10(){
     c.value = number1*0.1;
     intoInt()
 }
-function cambiazo15(){
+function change15(){
     c.value = number1*0.15;
     intoInt()
 }
-function cambiazo25(){
+function change25(){
     c.value = number1*0.25;
     intoInt()
 }
-function cambiazo50(){
+function change50(){
     c.value = number1*0.5;
     intoInt()
 }
@@ -66,4 +67,10 @@ function intoInt(){
         dollarsTip.textContent = `$ ${tipPerPerson}`
     }
     //console.log(perPerson)
+}
+
+function resetValues(){
+    a.value = 0;
+    b.value = 0;
+    c.value = 0;
 }

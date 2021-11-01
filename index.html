@@ -42,7 +42,7 @@
       <div class="presentation--container">
         <p>Hello, my name is</p>
         <h2>Johan Segura</h2>
-        <p class="presentation--container__minibio">I'm asoftware engineer who like to build websites</p>
+        <p class="presentation--container__minibio">I'm a software engineer who likes to build websites</p>
         <a href="#aboutMe">About me</a>
       </div>
       <div class="bg--image">
@@ -52,12 +52,12 @@
 
     <!-- ABOUT ME -->
 
-    <section class="about">
+    <section id="aboutMe" class="about">
       <div class="about--container">
         <div class="about--container--resume">
           <h2>About me</h2>
           <p>Hello my name is Johan Segura and i’m a software engineer student from Peru who likes to develop websites.
-            I started learning web development since 2019 and i haven’t stop learning yet.</p>
+            I started learning web development since 2020 and i haven’t stop learning yet.</p>
           <p>I have done some proyects on
             my own and i have experience with:</p>
 
@@ -93,7 +93,7 @@
     <section class="projects">
       <div class="projects--container">
         <h2>Projects</h2>
-        <p>Here are some projects, i used HTML, CSS, Javascript, Bootstrap, Figma, GSAP & Sass</p>
+        <p>Here are some projects, i used HTML, CSS, Javascript, Bootstrap, Figma & Json</p>
       </div>
       <div class="projects--container--gallery cc">
         <div class="projects--container--gallery--cards cc1">
@@ -105,7 +105,11 @@
               <p>
                 This is a simple, traffic-based pricing, this app helped me to understand how to modify price and add a
                 discount based on input range and input checkbox, this can be used as a frienldy and simple interface
-                for the costumer</p>
+                for the costumer
+                <br>
+                <br>
+                Html - CSS3 - Javascript
+              </p>
               <div>
                 <a href="/InteractivePricing/index.html">Go live</a>
               </div>
@@ -118,7 +122,11 @@
             <div class="text--container">
 
               <p>This a tip calculator, you can easily divide the bill by the amount of people and set the tip by an
-                specific amount or set a percentile amount </p>
+                specific amount or set a percentile amount <br>
+                <br>
+                Html - CSS3 - Javascript
+              </p>
+              </p>
               <div>
                 <a class="link-blue" href="/tip-calculator/index.html">Go live</a>
               </div>
@@ -128,13 +136,16 @@
           </div>
         </div>
         <div class="projects--container--gallery--cards cc3">
-          <h3>Juego</h3>
+          <h3>Time tracking dash board</h3>
           <div class="card--container">
             <div class="card c3">
             </div>
             <div class="text--container">
-              <p>This a memory game i make using HTML, CSS and Javascript.This a memory game i make using HTML, CSS and
-                Javascript.This a memory game i make using HTML, CSS and Javascript. </p>
+              <p>This Time tracking dash board where you can find how you spend your time in different activities <br>
+                <br>
+                Html - CSS3 - Javascript - Json
+              </p>
+
               <div>
                 <a href="/time-tracking-dashboard/index.html">Go live</a>
               </div>
@@ -142,12 +153,15 @@
           </div>
         </div>
         <div class="projects--container--gallery--cards cc4">
-          <h3>Juego</h3>
+          <h3>Memory game</h3>
           <div class="card--container">
             <div class="text--container">
 
-              <p>This a memory game i make using HTML, CSS and Javascript.This a memory game i make using HTML, CSS and
-                Javascript.This a memory game i make using HTML, CSS and Javascript. </p>
+              <p>This a memory game, you need to do the right combination to win this game.
+                <br> Soon you will be able to select the quantity of level <br>
+                <br>
+                Html - CSS3 - Javascript
+              </p>
               <div>
                 <a class="link-blue" href="/index2.html">Go live</a>
               </div>
@@ -164,22 +178,23 @@
     <section class="contact">
       <div class="contact--text">
         <h2>Contact</h2>
-        <p>I'm interested on being reclutes, i want to land my first job :)</p>
+        <p>I'm interested on being recluted, i want to land my first job :)</p>
 
       </div>
       <div class="contact--section">
-        <div class="contact--inputs">
-          <input class="input" type="text" name="" id="" placeholder="Nombre">
-          <input class="input" type="email" name="" id="" placeholder="Email">
-          <input class="input" type="text" name="" id="" placeholder="Subject">
-          <input class="input" type="text" name="" id="" placeholder="Message">
+        <form class="contact--inputs" action="https://formsubmit.co/manuelsegmar@gmail.com" method="POST">
+          <input class="input" type="text" name="name" placeholder="Name" required>
+          <input class="input" type="email" name="email" placeholder="Email" required>
+          <!-- <input class="input" type="text" name="subject" placeholder="Subject" required> -->
+          <textarea class="input text" type="text" name="message" placeholder="Message" id=""></textarea>
+          <!-- <input class="input" type="text" name="message" placeholder="Message" required> -->
           <input class="input submit" type="submit" name="" id="">
-        </div>
-        <div class="contact--mail">
+        </form>
+        <!-- <div class="contact--mail">
           <img src="/images/official-gmail-icon-2020-.svg" alt="">
           <img src="/images/github-icon-1 (1).svg" alt="">
 
-        </div>
+        </div> -->
       </div>
 
     </section>

@@ -55,29 +55,30 @@ main {
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
+  /* width: 50%; */
 }
 .presentation--container p {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-align: center;
   width: 80%;
 }
 .presentation--container h2 {
-  font-size: 3.2rem;
+  font-size: 4.4rem;
   text-align: center;
 }
-.presentation--container__minibio {
+.presentation--container .presentation--container__minibio {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 .presentation--container a {
   font-size: 2rem;
-  border-radius: 1rem;
+  border-radius: 1.6rem;
   margin-top: 1.2rem;
   padding: 1rem;
   background-color: var(--soft-red);
   padding: 1.2rem;
 
-  border: 1px solid black;
+  border-bottom: 0.6rem solid black;
   text-decoration: none;
   color: white;
   /* boxshadow */
@@ -97,7 +98,7 @@ main {
 /* PROJECTS */
 
 .projects {
-  background-color: var(--soft-orange);
+  background-color: #00a19d;
   width: 100%;
   /* height: 100vh; */
   min-height: 56rem;
@@ -113,7 +114,7 @@ main {
   align-items: center;
 }
 .projects--container h2 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   text-align: center;
   margin-top: 4rem;
 }
@@ -148,9 +149,12 @@ main {
 .cc1,
 .cc3 {
   color: white;
-  background-color: #163e59;
-  box-shadow: 1000px 0px 0px #163e59, -1000px 0px 0px #163e59;
+  background-color: #fff8e5;
+  color: black;
+  border-radius: 1.6rem;
+  /* box-shadow: 1000px 0px 0px #fff8e5, -1000px 0px 0px #fff8e5; */
   /* box-shadow: - 100px red; */
+  /* margin-right: 100rem; */
 }
 .c2,
 .c4 {
@@ -163,11 +167,12 @@ main {
   align-items: flex-start;
   margin-top: 1.2rem;
   width: 98%;
+  gap: 1rem;
 }
 .projects--container--gallery--cards h3 {
   font-size: 2.8rem;
-  width: 90%;
-  /* margin-left: 1rem; */
+  /* width: 90%; */
+  margin-left: 1rem;
 }
 .projects--container--gallery--cards p {
   margin-top: 1.6rem;
@@ -185,8 +190,8 @@ main {
   max-height: 30rem;
   min-width: 32rem;
   background-color: white;
-  border-radius: 1.2rem;
-  margin-left: 1.2rem;
+  border-radius: 1.6rem;
+  margin-left: 0rem;
   margin-right: 0rem;
   margin-top: 0rem;
   box-shadow: 1px 1px 4px 2px rgb(71 71 71 / 34%);
@@ -197,6 +202,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 50%;
+  /* margin-left: 1rem; */
   justify-content: space-between;
 }
 .text--container p {
@@ -204,6 +210,7 @@ main {
 }
 .text--container a {
   margin-bottom: 1rem;
+  /* border-bottom: 0.6rem solid black; */
 }
 .c4 {
   margin-bottom: 2.8rem;
@@ -227,6 +234,7 @@ main {
   max-height: 70rem;
   max-width: 110rem;
   display: flex;
+  justify-content: center;
   /* flex-direction: column; */
 }
 .contact--mail {
@@ -247,7 +255,7 @@ main {
   align-items: center;
 }
 .contact--text h2 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   text-align: center;
   margin-top: 2.4rem;
 }
@@ -271,6 +279,9 @@ main {
   padding: 1.6rem 0.8rem;
   margin-top: 1rem;
   border-radius: 1.2rem;
+}
+.text {
+  height: 100rem;
 }
 .submit {
   font-size: 2rem;
@@ -320,7 +331,7 @@ i {
   width: 50%;
 }
 .about--container--resume h2 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   /* text-align: center; */
   width: 80%;
   margin: 0 auto;

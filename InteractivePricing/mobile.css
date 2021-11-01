@@ -15,12 +15,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-width: 335px;
 }
 
 main {
   background-color: hsl(224, 65%, 95%);
   width: 85%;
-  padding: 2rem 4rem;
+  padding: 2rem auto;
   border-radius: 2rem;
   max-width: 380px;
 }
@@ -117,6 +118,9 @@ main {
   align-items: center;
   justify-items: center;
 }
+.checkbox {
+  cursor: pointer;
+}
 .card--container--billing p {
   /* margin-top: 0; */
   /* box-sizing: border-box; */
@@ -141,6 +145,7 @@ main {
   border-radius: 2rem;
   color: #fff;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 i {
   background-image: url("/InteractivePricing/images/icon-check.svg");
