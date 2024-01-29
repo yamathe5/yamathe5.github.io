@@ -12,8 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/mobile.css">
-  <link rel="stylesheet" media="(min-width: 800px)" href="styles.css" />
+  <link rel="stylesheet" href="./mobile.css">
+  <link rel="stylesheet" media="(min-width: 800px)" href="./styles.css" />
 
 
   <title>JohanSegura</title>
@@ -22,17 +22,14 @@
 <body>
   <header>
     <nav>
-      <div>
-        <!-- <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul> -->
-      </div>
-      <div>
-        <!-- <button>
+      <div class="header__eng">
+        <a href="/en/index.html">
 
-        </button> -->
+          <img src="./images/united-states-of-america.png" alt="">
+        </a>
+      </div>
+      <div class="header__esp">
+        <img src="./images/spain-flag.png" alt="">
       </div>
     </nav>
   </header>
@@ -40,10 +37,10 @@
     <!-- PRESENTATION -->
     <section class="presentation">
       <div class="presentation--container">
-        <p>Hello, my name is</p>
+        <p>Hola, mi nombre es</p>
         <h2>Johan Segura</h2>
-        <p class="presentation--container__minibio">I'm a software engineer who likes to build websites</p>
-        <a href="#aboutMe">About me</a>
+        <p class="presentation--container__minibio">Soy estudiante de ingeniería de software apasionado por la creación de apps web</p>
+        <a href="#aboutMe">Acerca de mí</a>
       </div>
       <div class="bg--image">
       </div>
@@ -55,31 +52,36 @@
     <section id="aboutMe" class="about">
       <div class="about--container">
         <div class="about--container--resume">
-          <h2>About me</h2>
-          <p>Hello my name is Johan Segura and i’m a software engineer student from Peru who likes to develop websites.
-            I started learning web development since 2020 and i haven’t stop learning yet.</p>
-          <p>I have done some proyects on
-            my own and i have experience with:</p>
+          <h2>Acerca de mí</h2>
+          <p>Hola, mi nombre es Johan Segura y soy un estudiante de ingeniería de software de Perú al que le gusta desarrollar sitios web. Comencé a aprender desarrollo web desde 2020 y aún no he dejado de aprender.</p>
+          <p>He realizado algunos proyectos por mi cuenta y tengo experiencia con:</p>
 
           <div class="about--container--resume--list">
             <ul class="resume--list--1">
-              <li class="html">► HTML5</li>
-              <li class="javascript">► Javascript</li>
-              <li class="sass">► Sass</li>
-              <li class="figma">► Figma</li>
+              <li class="">► REACT JS</li>
+              <li class="">► Javascript</li>
+              <li class="">► Git/Github</li>
+
+
+              <li class="">► HTML 5</li>
+              <li class="">► NODE JS</li>
+              <li class="">► POSTGRESQL</li>
             </ul>
             <ul class="resume--list--2">
-              <li class="css">► CSS3</li>
-              <li class="bootstrap">► Bootstrap</li>
-              <li class="git">► Git</li>
+              <li class="">► Flutter</li>
+              <li class="">► CSS3</li>
+              <li class="">► Sass</li>
+              <li class="">► Figma</li>
+              <li class="">► Bootstrap</li>
+              <li class="">► ANGULAR/<span class="nodejs">VUE</span> </li>
             </ul>
           </div>
         </div>
         <div class="resources--container--silder">
-          <img class="scroll--img" src="/images/html.svg" alt="">
-          <img class="scroll--img" src="/images/css3.svg" alt="">
+          <img class="scroll--img" src="/images/react.png" alt="">
+          <img class="scroll--img" src="/images/nodejs.png" alt="">
           <img class="scroll--img" src="/images/javascript.svg" alt="">
-          <img class="scroll--img" src="/images/boo.svg" alt="">
+          <img class="scroll--img" style="width: auto;" src="/images/flutter.webp" alt="">
           <img class="scroll--img" src="/images/git.svg" alt="">
           <img class="scroll--img" src="/images/sass.svg" alt="">
         </div>
@@ -92,21 +94,63 @@
     <!-- PROJECTS -->
     <section class="projects">
       <div class="projects--container">
-        <h2>Projects</h2>
-        <p>Here are some projects, i used HTML, CSS, Javascript, Bootstrap, Figma & Json</p>
+        <h2>Proyectos</h2>
+        <p>Aquí hay algunos proyectos, he usado ReactJs, NodeJs, Postgresql, HTML, CSS, Javascript, Bootstrap, Figma & Json</p>
       </div>
       <div class="projects--container--gallery cc">
         <div class="projects--container--gallery--cards cc1">
-          <h3>Traffic-based pricing</h3>
+            <h3>Consigue ese Trabajo (Plataforma de Búsqueda de Empleo)</h3>
+            <div class="card--container">
+            <div class="card cg">
+            </div>
+            <div class="text--container">
+                <p>
+                    Desbloquea tu potencial profesional con 'Consigue ese Trabajo', tu puerta de entrada al futuro del empleo. Nuestra plataforma está desarrollada con las últimas tecnologías web para conectarte sin problemas con tu trabajo ideal. ¡Prepárate, ponte en marcha y salta a tu nueva era profesional!
+                    <br><br>
+                    ReactJs, NodeJs, Postgresql, HTML, CSS, Figma y Json
+                  
+              </p>
+              <div>
+                <a target="_blank" href="https://getthatjob-jgti.onrender.com/login">Go live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects--container--gallery--cards cc2">
+          <h3>Expocobre(Guía de la Feria del Cobre)</h3>
+          <div class="card--container">
+            <div class="text--container">
+
+              <p>
+                "Descubre el evento más importante de la industria del cobre con 'CopperFair Guide', creada para ExpoCobre 2023 en Flutter. Explora conferencias, stands y charlas especializadas con facilidad. Conéctate con expertos y sigue las tendencias del sector, todo gracias a la tecnología móvil avanzada de Dart y Firebase, optimizando así tu experiencia en ExpoCobre."
+
+
+
+
+
+
+                
+                <br>
+                <br>
+                Flutter, Dart, FIrebase
+              </p>
+              </p>
+              <div>
+                <a class="link-blue" href="https://play.google.com/store/apps/details?id=com.intermetperu.expocobre&hl=es_VE&gl=US" target="_blank" >Go live</a>
+              </div>
+            </div>
+            <div class="card cn"> 
+            </div>
+          </div>
+        </div>
+        <div class="projects--container--gallery--cards cc1">
+          <h3>Tarificación basada en el tráfico</h3>
           <div class="card--container">
             <div class="card c1">
             </div>
             <div class="text--container">
               <p>
-                This is a simple, traffic-based pricing, this app helped me to understand how to modify price and add a
-                discount based on input range and input checkbox, this can be used as a frienldy and simple interface
-                for the costumer
-                <br>
+                Se trata de una simple fijación de precios basada en el tráfico, esta aplicación me ayudó a entender cómo modificar el precio y añadir un descuento basado en el rango de entrada y la casilla de verificación de entrada. descuento basado en el rango de entrada y casilla de verificación de entrada, esto puede ser utilizado como una interfaz frienldy y simple para el cliente                <br>
                 <br>
                 Html - CSS3 - Javascript
               </p>
@@ -117,18 +161,18 @@
           </div>
         </div>
         <div class="projects--container--gallery--cards cc2">
-          <h3>Tip calculator</h3>
+          <h3>Calculadora de propinas</h3>
           <div class="card--container">
             <div class="text--container">
 
-              <p>This a tip calculator, you can easily divide the bill by the amount of people and set the tip by an
-                specific amount or set a percentile amount <br>
+              <p>Esta calculadora de propinas, puede dividir fácilmente la factura por la cantidad de personas y establecer la propina por un cantidad específica o establecer una cantidad percentil <br>
                 <br>
                 Html - CSS3 - Javascript
+
               </p>
               </p>
               <div>
-                <a class="link-blue" href="/tip-calculator/index.html">Go live</a>
+                <a class="link-blue" target="_blank" href="/tip-calculator/index.html">Go live</a>
               </div>
             </div>
             <div class="card c2">
@@ -136,34 +180,34 @@
           </div>
         </div>
         <div class="projects--container--gallery--cards cc3">
-          <h3>Time tracking dash board</h3>
+          <h3>Cuadro de mandos de seguimiento del tiempo</h3>
           <div class="card--container">
             <div class="card c3">
             </div>
             <div class="text--container">
-              <p>This Time tracking dash board where you can find how you spend your time in different activities <br>
+              <p>Este tablero de control de tiempo donde se puede encontrar cómo usted pasa su tiempo en diferentes actividades <br>
                 <br>
                 Html - CSS3 - Javascript - Json
               </p>
 
               <div>
-                <a href="/time-tracking-dashboard/index.html">Go live</a>
+                <a href="/time-tracking-dashboard/index.html" target="_blank">Go live</a>
               </div>
             </div>
           </div>
         </div>
         <div class="projects--container--gallery--cards cc4">
-          <h3>Memory game</h3>
+          <h3>Juego de memoria</h3>
           <div class="card--container">
             <div class="text--container">
 
-              <p>This a memory game, you need to do the right combination to win this game.
-                <br> Soon you will be able to select the quantity of levels you want to play <br>
+              <p>Este es un juego de memoria, tienes que hacer la combinacion correcta para ganar. Pronto podrás seleccionar la cantidad de niveles que quieres jugar
+                <br>
                 <br>
                 Html - CSS3 - Javascript
               </p>
               <div>
-                <a class="link-blue" href="/memory-game/index.html">Go live</a>
+                <a class="link-blue" href="/memory-game/index.html" target="_blank">Go live</a>
               </div>
             </div>
             <div class="card c4">
@@ -177,9 +221,8 @@
     <!-- CONTACT -->
     <section class="contact">
       <div class="contact--text">
-        <h2>Contact</h2>
-        <p>I'm interested on remote projects/work. As a teammate i'm a responsable person who believes in long term
-          relationships with costumers, i'm ready to colaborate as a team and develop good solutions.</p>
+        <h2>Contacto</h2>
+        <p>Estoy interesado en proyectos/trabajos remotos. Como compañero de equipo soy una persona responsable que cree en relaciones a largo plazo con los clientes, estoy listo para colaborar como equipo y desarrollar buenas soluciones.</p>
 
       </div>
       <div class="contact--section">

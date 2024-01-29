@@ -23,6 +23,26 @@ html {
   background-color: rgb(56, 56, 56);
   font-family: "Montserrat", sans-serif;
 }
+
+header{
+background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header__eng{
+  cursor: pointer;
+}
+.header__esp{
+  cursor: pointer;
+
+}
+nav {
+  display: flex;
+  gap: 1.2rem;
+  padding: 2rem 0rem ;
+  padding-right: 2rem;
+}
 main {
   /*  */
   /*  */
@@ -41,9 +61,9 @@ main {
 .presentation {
   width: 100%;
   background-color: #fff;
-  height: 100vh;
+  height: calc(100vh - 7rem);
   min-height: 56rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
   display: flex;
   flex-direction: column;
@@ -149,7 +169,7 @@ main {
   margin-right: 1rem;
 }
 .javascript {
-  color: #ffd600;
+  color: #dbb600;
   margin-right: 1rem;
 }
 .sass {
@@ -167,6 +187,9 @@ main {
 }
 .git {
   color: #f4511e;
+}
+.nodejs {
+  color: green;
 }
 
 .resources--container--silder {
@@ -260,6 +283,21 @@ main {
   /* margin-left: 1rem; */
   font-size: 1.6rem;
   /* width: 90%; */
+}
+
+.cg{
+  background-image: url("/images/get-that-job.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cn {
+  background-image: url("/images/expocobreimg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 .c1 {
   background-image: url("/images/data-slider-prince.png");

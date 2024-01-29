@@ -40,12 +40,12 @@ main {
 .presentation {
   width: 100%;
   background-color: #fff;
-  height: 100vh;
   min-height: 56rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: calc(100vh - 7rem);
   align-items: center;
 }
 .presentation--container {
