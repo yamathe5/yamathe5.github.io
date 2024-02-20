@@ -293,14 +293,14 @@ main {
 }
 
 .cn {
-  background-image: url("/images/expocobreimg.png");
+  background-image: url("/images/paisaje_canada.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 
 }
 .c1 {
-  background-image: url("/images/paisaje_canada.png");
+  background-image: url("/images/expocobreimg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
